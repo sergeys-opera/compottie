@@ -9,12 +9,11 @@ val _jvmTarget = findProperty("jvmTarget") as String
 
 android {
     namespace = "$group.compottie.example.android"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = namespace
         minSdk = 24
-        targetSdk = 34
         versionCode = 1
         versionName = project.version.toString()
 
